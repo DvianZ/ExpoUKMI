@@ -103,7 +103,7 @@
                 isSpinning = false;
                 spinButton.disabled = false;
 
-                resultDisplay.textContent = `${winner.name}!`;
+                resultDisplay.textContent = `${winner.name}!` + /n + 'Jangan Lupa Follow IG: @ukmi_ush';
 
                 // Normalisasi sudut untuk putaran berikutnya agar lebih mulus
                 const normalizedAngle = currentRotation % 360;
@@ -122,4 +122,5 @@
             });
 
             drawWheel();
+
         });
